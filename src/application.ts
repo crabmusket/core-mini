@@ -1,5 +1,5 @@
 import { isHttpError } from 'https://raw.githubusercontent.com/curveball/http-errors/master/src/index.ts';
-import { EventEmitter } from 'events';
+import EventEmitter from 'https://deno.land/std/node/events.ts';
 import BaseContext from './base-context';
 import Context from './context';
 import { HeadersInterface, HeadersObject } from './headers';
