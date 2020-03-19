@@ -9,8 +9,6 @@ import NotFoundMw from './middleware/not-found';
 import Request from './request';
 import Response from './response';
 
-const pkg = require('../package.json');
-
 /**
  * The middleware-call Symbol is a special symbol that might exist as a
  * property on an object.
@@ -71,7 +69,8 @@ export default class Application extends EventEmitter {
    * Handles a single request and calls all middleware.
    */
   async handle(ctx: Context): Promise<void> {
-    ctx.response.headers.set('Server', 'curveball/' + pkg.version);
+    //TODO: find the version some other way, or disable it entirely?
+    //ctx.response.headers.set('Server', 'curveball/' + pkg.version);
     ctx.response.type = 'application/hal+json';
     await invokeMiddlewares(ctx, [...this.middlewares, NotFoundMw]);
   }
