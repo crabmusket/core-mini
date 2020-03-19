@@ -1,13 +1,13 @@
 import { isHttpError } from 'https://raw.githubusercontent.com/curveball/http-errors/master/src/index.ts';
 import EventEmitter from 'https://deno.land/std/node/events.ts';
-import BaseContext from './base-context';
-import Context from './context';
-import { HeadersInterface, HeadersObject } from './headers';
-import MemoryRequest from './memory-request';
-import MemoryResponse from './memory-response';
-import NotFoundMw from './middleware/not-found';
-import Request from './request';
-import Response from './response';
+import BaseContext from './base-context.ts';
+import Context from './context.ts';
+import { HeadersInterface, HeadersObject } from './headers.ts';
+import MemoryRequest from './memory-request.ts';
+import MemoryResponse from './memory-response.ts';
+import NotFoundMw from './middleware/not-found.ts';
+import Request from './request.ts';
+import Response from './response.ts';
 
 /**
  * The middleware-call Symbol is a special symbol that might exist as a

@@ -1,5 +1,5 @@
 import { HttpProblem } from 'https://raw.githubusercontent.com/curveball/http-errors/master/src/index.ts';
-import Context from '../context';
+import Context from '../context.ts';
 
 /**
  * This middleware simply triggers a 'NotFound' error.

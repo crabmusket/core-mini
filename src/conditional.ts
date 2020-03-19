@@ -1,4 +1,4 @@
-import RequestInterface from './request';
+import RequestInterface from './request.ts';
 
 /**
  * This method will check the following request headers:

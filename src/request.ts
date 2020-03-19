@@ -2,8 +2,8 @@ import accepts from 'accepts';
 import http from 'http';
 import { Readable } from 'stream';
 import url from 'url';
-import { is, parsePrefer } from './header-helpers';
-import { HeadersInterface } from './headers';
+import { is, parsePrefer } from './header-helpers.ts';
+import { HeadersInterface } from './headers.ts';
 
 /**
  * This interface represents an incoming server request.

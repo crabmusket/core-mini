@@ -1,6 +1,6 @@
 import { Readable } from 'stream';
-import { Headers, HeadersInterface, HeadersObject } from './headers';
-import Request from './request';
+import { Headers, HeadersInterface, HeadersObject } from './headers.ts';
+import Request from './request.ts';
 
 export class MemoryRequest<T> extends Request<T> {
 

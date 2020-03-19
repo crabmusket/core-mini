@@ -1,7 +1,7 @@
-import { Middleware } from './application';
-import { HeadersInterface, HeadersObject } from './headers';
-import Request from './request';
-import Response from './response';
+import { Middleware } from './application.ts';
+import { HeadersInterface, HeadersObject } from './headers.ts';
+import Request from './request.ts';
+import Response from './response.ts';
 
 export default interface Context<ReqT = any, ResT = any> {
 

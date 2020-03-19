@@ -1,12 +1,12 @@
-import { default as Application, invokeMiddlewares, Middleware, middlewareCall } from './application';
-import BaseContext from './base-context';
-import Context from './context';
-import Headers from './headers';
-import MemoryRequest from './memory-request';
-import MemoryResponse from './memory-response';
-import Request from './request';
-import Response from './response';
-import { conditionalCheck } from './conditional';
+import { default as Application, invokeMiddlewares, Middleware, middlewareCall } from './application.ts';
+import BaseContext from './base-context.ts';
+import Context from './context.ts';
+import Headers from './headers.ts';
+import MemoryRequest from './memory-request.ts';
+import MemoryResponse from './memory-response.ts';
+import Request from './request.ts';
+import Response from './response.ts';
+import { conditionalCheck } from './conditional.ts';
 
 export default Application;
 export {

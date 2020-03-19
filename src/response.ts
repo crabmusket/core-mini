@@ -1,6 +1,6 @@
-import { Middleware } from './application';
-import { is } from './header-helpers';
-import { HeadersInterface, HeadersObject } from './headers';
+import { Middleware } from './application.ts';
+import { is } from './header-helpers.ts';
+import { HeadersInterface, HeadersObject } from './headers.ts';
 
 /**
  * This interface represents an incoming server request.

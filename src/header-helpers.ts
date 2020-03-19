@@ -1,5 +1,5 @@
-import RequestInterface from './request';
-import ResponseInterface from './response';
+import RequestInterface from './request.ts';
+import ResponseInterface from './response.ts';
 
 /**
  * This method will return true or false if a Request or Response has a

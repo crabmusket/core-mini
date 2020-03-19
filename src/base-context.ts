@@ -1,8 +1,8 @@
-import { Middleware } from './application';
-import Context from './context';
-import { HeadersInterface, HeadersObject } from './headers';
-import Request from './request';
-import Response from './response';
+import { Middleware } from './application.ts';
+import Context from './context.ts';
+import { HeadersInterface, HeadersObject } from './headers.ts';
+import Request from './request.ts';
+import Response from './response.ts';
 
 /**
  * The Context object encapsulates a single HTTP request.
