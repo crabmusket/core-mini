@@ -1,4 +1,4 @@
-import { isHttpError } from '@curveball/http-errors';
+import { isHttpError } from 'https://raw.githubusercontent.com/curveball/http-errors/master/src/index.ts';
 import { EventEmitter } from 'events';
 import BaseContext from './base-context';
 import Context from './context';

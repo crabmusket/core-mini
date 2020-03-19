@@ -1,4 +1,4 @@
-import { HttpProblem } from '@curveball/http-errors';
+import { HttpProblem } from 'https://raw.githubusercontent.com/curveball/http-errors/master/src/index.ts';
 import Context from '../context';
 
 /**
